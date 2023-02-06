@@ -1,0 +1,1 @@
+module.exports = (process.env['NODE_ENV'] === 'COVERAGE') ? /*require('./lib/express-test.js')*/ console.log('test') : require('./lib/express');

@@ -1,0 +1,25 @@
+{
+  "name": "server-arce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XDLOPER/node-server-arce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XDLOPER/node-server-arce/issues"
+  },
+  "homepage": "https://github.com/XDLOPER/node-server-arce#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nconf": "^0.12.0",
+    "nodemon": "^2.0.20",
+    "winston": "^3.8.2"
+  }
+}
